@@ -58,6 +58,7 @@ export function Navigation() {
           <div className="flex items-center gap-2">
             {mounted && (
               <Button
+                className="cursor-pointer"
                 variant="ghost"
                 size="icon"
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
