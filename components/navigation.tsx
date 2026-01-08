@@ -75,13 +75,13 @@ export function Navigation() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right">
-                <div className="flex flex-col gap-4 mt-8">
+                <div className="flex flex-col gap-6 mt-12 px-6">
                   {navItems.map((item) => (
                     <Link
                       key={item.name}
                       href={item.href}
                       onClick={() => setIsOpen(false)}
-                      className="text-lg font-medium text-foreground/80 transition-colors hover:text-primary"
+                      className="text-xl font-medium text-foreground transition-colors hover:text-primary py-2 border-b border-border/50 pl-2"
                     >
                       {item.name}
                     </Link>
