@@ -32,7 +32,7 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/Mege.jpeg"
+              src="/Mege.png"
               alt="Megë Tours Logo"
               width={40}
               height={40}

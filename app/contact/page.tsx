@@ -74,9 +74,9 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-semibold mb-1">Address</h3>
                         <p className="text-sm text-muted-foreground">
-                          123 Galle Road
+                          Ukkuwa road,
                           <br />
-                          Colombo 03
+                          Bentota
                           <br />
                           Sri Lanka
                         </p>
@@ -90,9 +90,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-semibold mb-1">Phone</h3>
                         <p className="text-sm text-muted-foreground">
-                          +94 11 234 5678
-                          <br />
-                          +94 77 123 4567
+                          +94 76 767 9088
                         </p>
                       </div>
                     </div>

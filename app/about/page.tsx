@@ -17,13 +17,7 @@ export default function AboutPage() {
               <Badge className="mb-4" variant="secondary">
                 About Us
               </Badge>
-              <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4 text-balance">
-                Your Trusted Travel Partner in Sri Lanka
-              </h1>
-              <p className="text-lg text-muted-foreground leading-relaxed text-pretty">
-                Since 2010, we've been helping travelers discover the magic of Sri Lanka through personalized, authentic
-                experiences.
-              </p>
+             
             </div>
           </div>
         </section>
@@ -212,11 +206,11 @@ export default function AboutPage() {
                   </CardContent>
                 </Card>
                 <Card>
-                  <CardContent className="pt-6 text-center">
+                  {/* <CardContent className="pt-6 text-center">
                     <Award className="h-12 w-12 text-primary mx-auto mb-3" />
                     <h3 className="font-semibold mb-1">Best Tour Operator</h3>
                     <p className="text-sm text-muted-foreground">Sri Lanka Tourism Awards 2023</p>
-                  </CardContent>
+                  </CardContent> */}
                 </Card>
                 <Card>
                   <CardContent className="pt-6 text-center">

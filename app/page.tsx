@@ -29,27 +29,29 @@ export default function HomePage() {
           </div>
 
           <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36">
-            <div className="max-w-3xl">
-              <Badge className="mb-6" variant="secondary">
-                Welcome to Paradise
-              </Badge>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-6">
-                Discover the Magic of <span className="text-primary">Sri Lanka</span>
-              </h1>
-              <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed mb-8 text-pretty">
-                Experience unforgettable adventures in the pearl of the Indian Ocean. From pristine beaches to ancient
-                temples, tea plantations to wildlife safaris, we bring you the best of Sri Lanka.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="text-base">
-                  <Link href="/tours">
-                    Explore Tours
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-                <Button asChild size="lg" variant="outline" className="text-base bg-transparent">
-                  <Link href="/contact">Contact Us</Link>
-                </Button>
+            <div className="flex justify-end">
+              <div className="max-w-3xl">
+                <Badge className="mb-6" variant="secondary">
+                  Welcome to Paradise
+                </Badge>
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-balance mb-6">
+                  Discover the Magic of <span className="text-primary">Sri Lanka</span>
+                </h1>
+                <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed mb-8 text-pretty">
+                  Experience unforgettable adventures in the pearl of the Indian Ocean. From pristine beaches to ancient
+                  temples, tea plantations to wildlife safaris, we bring you the best of Sri Lanka.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Button asChild size="lg" className="text-base">
+                    <Link href="/tours">
+                      Explore Tours
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </Link>
+                  </Button>
+                  <Button asChild size="lg" variant="outline" className="text-base bg-transparent">
+                    <Link href="/contact">Contact Us</Link>
+                  </Button>
+                </div>
               </div>
             </div>
           </div>

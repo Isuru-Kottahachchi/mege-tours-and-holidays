@@ -12,8 +12,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-bold text-primary mb-4">Mege Tours and Holidays</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Your trusted partner for exploring the beautiful island of Sri Lanka. Creating memorable experiences since
-              2010.
+              Your trusted partner for exploring the beautiful island of Sri Lanka.
             </p>
           </div>
 
@@ -50,12 +49,12 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 text-primary shrink-0" />
-                <span className="text-muted-foreground">123 Galle Road, Colombo 03, Sri Lanka</span>
+                <span className="text-muted-foreground"> Ukkuwa road, Bentota, Sri Lanka</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-primary shrink-0" />
-                <a href="tel:+94112345678" className="text-muted-foreground hover:text-primary transition-colors">
-                  +94 11 234 5678
+                <a href="tel:+94767679088" className="text-muted-foreground hover:text-primary transition-colors">
+                  +94 76 767 9088
                 </a>
               </li>
               <li className="flex items-center gap-2">
